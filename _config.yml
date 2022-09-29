@@ -1,0 +1,17 @@
+production_url: https://xn--b1agdivg6aa1j.com.ua
+include:
+  [
+    "_pages",
+    "_redirects"
+  ]
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+url: "https://xn--b1agdivg6aa1j.com.ua"
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  [ "readme.md" ]

@@ -1,0 +1,173 @@
+@import url(../fonts/oswald/stylesheet.css);
+@import url("screen.css");
+@import url("comment.css");
+
+body {
+  background: url(../images/bg.jpg.png) 0 0 repeat #e9e4e0;
+  color: #0b0706;  
+  font-size: 12px;
+  line-height: 1.5; /* Unit-less line-height means line height can scale. */
+}
+
+/* --- Common Links --- */
+a {
+  color: #d85000;
+  text-decoration: none;
+}
+
+a:visited {
+}
+
+a:hover {
+  color: #32821f;
+  text-decoration: none;
+}
+
+a:active,
+a:focus {
+  text-decoration: none;
+}
+
+/* Headings */
+h1 {
+  font-size: 1.833em;
+}
+
+h2 {
+  font-size: 1.50em;
+  font-family: 'oswaldregular';
+}
+
+h3 {
+  font-size: 1.167em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5,
+h6 {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.25;
+  margin: 0 0 .75em;
+  font-weight: normal;
+}
+
+p {
+  margin: 1em 0;
+  padding: 0;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+.wrapper {
+    clear: both;
+    display: block;
+}
+
+/* form */
+textarea:focus, 
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="time"]:focus, 
+input[type="week"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="color"]:focus, 
+.uneditable-input:focus {
+  background: none;
+  box-shadow: none;  
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  border-radius: 0;
+  border-color: #DDD0C7;  
+  font-size: 1em;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus { border-color: #BBAEA4; }
+
+label { font-weight: bold; }
+
+label, input, button, select, textarea { font-size: 1em; }
+
+.form-item input.error, .form-item textarea.error, .form-item select.error { border-width: 1px; }
+
+html.js input.form-autocomplete { background-position: 100% 8px; }
+
+input[type="radio"], input[type="checkbox"] { margin-top: 0; vertical-align: middle; }
+
+#page #credits {
+  display: none;
+}
+
+.field-name-field-image .field-item {
+  text-align: center;
+}
+
+#block-block-2 {
+  width: 60% !important;
+}
+#block-block-13 {
+  width: 40% !important;
+  text-align: right;
+}
+#block-block-13 li {
+  display: inline-block;
+}
+
+/*Owner menu*/
+.ovnermenu-wrap {
+  position: fixed;
+    right: 20px;
+    top: 110px;
+  z-index:999;
+  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:    4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow:         4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+}
+.ovnermenu-wrap > a {
+  padding: 15px;
+  text-align: right;
+}
+.ovnermenu-wrap ul.ownermenu {
+  padding-right: 30px;
+  margin-top: 0;
+  padding-top: 20px;
+  border-top: 1px solid #000;
+}
+.ovnermenu-wrap li {
+    margin-bottom: 10px;
+}
+.ovnermenu-wrap a {
+  color: #000;
+}
+
+.field-name-body img {
+	max-height: 100% !important;
+	height: auto !important;
+}
+
+.language-switcher-locale-url .active {
+	display: none;
+}

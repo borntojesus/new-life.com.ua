@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: ?*
+Disallow: /thank-you/
+Host: https://xn--b1agdivg6aa1j.com.ua/
+Sitemap: https://xn--b1agdivg6aa1j.com.ua/sitemap.xml
